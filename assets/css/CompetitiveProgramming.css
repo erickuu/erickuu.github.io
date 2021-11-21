@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	text-align: left;
+}
+h2{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	margin-bottom: 15px;
+	line-height: 60px;
+	text-align: center;
+}
+pre{
+	padding:30px;
+	overflow:hidden;
+}
+kbd{
+	margin:auto;
+}
+
+.main-content-main{
+	width: 100vw;
+	height: auto;
+	padding-left:60px;
+	padding-right:60px;
+}
+.main-content-main .div-content-submain{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	margin-bottom: 15px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	text-align: left;
+
+	width: 100%;
+	height: auto;
+	padding:60px;
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	background: #2a9d8f;
+}
+.main-content-main .div-content-submain .div-content-header{
+	width:80%;
+	margin:0px auto;
+	text-align: center;
+	color: #FFFFFF;
+}
+.main-content-main .div-content-submain .div-content-problems{
+	width:80%;
+	margin: auto;	
+	color: white;
+	
+	text-align: center;
+}
+.main-content-main .div-content-submain .div-content-problems pre {
+	margin:30px auto ;
+	width:60%;
+	border-radius: 10px;
+	text-align: left;
+	background:#001219;
+}
+.main-content-main .div-content-submain .div-content-problems pre code kbd{
+	color:#00b4d8;
+}
+
