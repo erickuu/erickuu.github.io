@@ -1728,7 +1728,7 @@ input, select, textarea {
 		text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
 		overflow: hidden;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
-		background-color: #2FDD92;
+		background-color: #121212;
 		padding: 1em 2.35em 1em 2.35em;
 		font-size: 1.1em;
 		max-width: 24em;
@@ -2016,7 +2016,7 @@ input, select, textarea {
 		}
 
 		.icon.featured {
-			color: #2FDD92;
+			color: #121212;
 			display: block;
 			margin: 0 0 1.5em 0;
 			cursor: default;
@@ -2078,7 +2078,8 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
-		background-color: #2FDD92;
+		/* background-color: #2FDD92; */
+		background-color: #121212;
 		text-align: center;
 		position: fixed;
 		left: 0;
