@@ -395,6 +395,7 @@ input, select, textarea {
 
 		.row > .col-4 {
 			width: 33.33333%;
+			
 		}
 
 		.row > .off-4 {
@@ -522,7 +523,7 @@ input, select, textarea {
 		}
 
 			.row > * {
-				padding: 25px 0 0 25px;
+				padding: 23px 0 0 23px;
 			}
 
 			.row.gtr-uniform {
@@ -1675,8 +1676,10 @@ input, select, textarea {
 		}
 
 		.image.fit {
+			overflow-y: hidden;
 			display: block;
 			width: 100%;
+			
 		}
 
 		.image.featured {
@@ -2155,12 +2158,12 @@ input, select, textarea {
 		#top .image {
 			border-radius: 20%;
 			width: 20em;
-			height: 20em;
+			height: 28em;
 			margin: 0;
 		}
 
 			#top .image img {
-				border-radius: 20%;
+				border-radius:40%;
 			}
 
 		#top h1 {
