@@ -1,152 +1,83 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Ericku</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="icon" href="images/ico.png" type="image/icon type">
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
-
-		<!-- Nav -->
-			<nav id="nav">
-				<ul class="container">
-					<li><a href="#top">Inicio</a></li>
-					<li><a href="#work">Quien soy</a></li>
-					<li><a href="#portfolio">Portafolio</a></li>
-					<li><a href="#contact">Frase</a></li>
-				</ul>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./src/css/section-main.css">
+	<link rel="stylesheet" href="./src/css/section-project.css">
+	<title>Testing UI</title>
+</head>
+<body>
+	<!-- Main must have 20px all sides -->
+	<main>
+		<header id="brand-header">
+			<nav>
+				<div class="brand-Logos">
+					<h3>ErickCorp</h3>
+				</div>
+				<div class="brand-menu">
+					<ul>
+						<li><a target="_blank" href="https://www.instagram.com/eirikr21/">Instagram</a></li>
+						<li><a target="_blank" href="https://twitter.com/erickgraterol8">Twitter</a></li>
+						<li><a target="_blank" href="#">+573148121439</a></li>
+					</ul>
+				</div>
+				<div class="brand-button">
+					<button class="button">
+						<a href="http://github.com/erickuu" target="_blank">Github</a>
+					</button>
+				</div>
 			</nav>
-
-		<!-- Home -->
-			<article id="top" class="wrapper style1">
-				<div class="container">
-					<div class="row">
-						<div class="col-4 col-5-large col-12-medium">
-							<span class="image fit"><img  id="img-header" src="images/erick.png" alt="Imagen de Erick Alejandro" /></span>
-						</div>
-						<div class="col-8 col-7-large col-12-medium">
-							<header>
-								<h1>Hola yo soy, <strong>Erick</strong>.</h1>
-							</header>
-							<p>Soy un <strong>Desarrollador Backend </strong>Me encargo de la logica y mantenimiento de tu negocio o producto, puedes escribir sin compromiso al : +573148121439, <a href="https://github.com/erickuu" target="_blank">Github Eirikr ,</a> <a href="https://twitter.com/Erick96798942" target="_blank"> Twitter Erick </a>.<a href="https://drive.google.com/file/d/1naHsWkvz8rZt18fBmYEg3-dOMPzUqlLt/view?usp=sharing" target="_blank">CV PDF</a></p>
-							<!-- <a href="#work" class="button large scrolly"></a> -->
-						</div>
-					</div>
+		</header>
+		
+		<section id="section-profile">
+			<div class="profile">
+				<div>
+					<h1>Erick Alejandro Graterol</h1>
+					<h2>(Backend Developer).</h2>
 				</div>
-			</article>
-
-		<!-- Work -->
-			<article id="work" class="wrapper style2">
-				<div class="container">
-					<header>
-						<h2>Quien soy yo </h2>
-						<p>Mira porque soy el indicado para tu empresa </p>
-					</header>
-					<div class="row aln-center">
-						<div class="col-4 col-6-medium col-12-small">
-							<section class="box style1">
-								<span class="icon solid featured fa-book"></span>
-								<h3>Estudiante autonomo</h3>
-								<p>Yo soy un estudiante autonomo con fuertes conocimientos en sistemas linux y programacion <strong>Me encantaria especializarme como desarrollador Backend</strong>, amo la programacion  y creo poder ayudarte</p>
-							</section>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<section class="box style1">
-								<span class="icon solid featured fa-star"></span>
-								<h3>Geek and Geek</h3>
-								<p>Entre mis hobbies la lectura es fundamental <strong>Filosofia, libros tecnicos estos son uno de mis generos favorito al leer </strong>, Mucho de lo que se en el desarrollo web y programacion lo he aprendido a traves del paso del tiempo y de manera autonoma </p>
-							</section>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<section class="box style1">
-								<span class="icon solid featured fa-book"></span>
-								<h3>Tecnologias</h3>
-								<p>Mi lenguaje favorito de programacion es javascript sin embargo no estoy casado con dicho lenguaje <strong>Vue.JS, me parece una hermosa tecnologia para desarrollo web</strong>, express.js es una gran libreria para crear servidores webs mi parte favorita de esto son los Header HTTP, como podras ver me gustan muchos las tecnologias que posee JS</p>
-							</section>
-						</div>
-					</div>
-					<footer>
-						<p>Te conte que poseo un perfil Tecnico ?</p>
-						<a href="https://platzi.com/p/eirikr/" target="_blank" class="button large scrolly">Habilidades tecnicas y cursos</a>
-					</footer>
+				<div>			
+					<button class="button">
+						<a href="https://platzi.com/p/eirikr" target="_blank">Skills Tech</a>
+					</button>
 				</div>
-			</article>
-
-		<!-- Portfolio -->
-			<article id="portfolio" class="wrapper style3">
-				<div class="container">
-					<header>
-						<h2>Proyectos</h2>
-						<p>Algunos pequenos proyectos personales</p>
-					</header>
-					<div class="row">
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/ranobe-app.png" alt="Imagen de muva un proyecto personal erickkuu" /></a>
-								<h3><a href="https://github.com/erickuu/Ranobe-app" target="_blank" >RANOBE APP</a></h3>
-								<p>Sitio para descargar novelas ligeras desde PC, <a href="https://fandom-anime.herokuapp.com" target="_blank">Fandom-anime</a></p>
-								<p>API<a href="https://fandom-anime.herokuapp.com/api/" target="_blank">Fandom-anime/api/</a></p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/project2.png" alt="Imagen de muva un proyecto personal erickkuu" /></a>
-								<h3><a href="https://erickuu.github.io/api-movie/" target="_blank" >API Movies</a></h3>
-								<p>Aca tienes una app para obtener informacion de peliculas: Fecha, Titulos, Ano de lanzamiento, etc . 🎥 📽 </p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="https://i.imgur.com/VZ4IXfV.png" alt="Imagen de muva un proyecto personal erickkuu" /></a>
-								<h3><a href="https://github.com/erickuu/LaravelMovie" target="_blank" >API Movies with Laravel</a></h3>
-								<p>Una hermosa UI hecha con Laravel/PHP, blade/Livewire y composer</p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/project3.png" alt="" /></a>
-								<h3><a href="https://erickuu.github.io/weather/" target="_blank" >API Weather</a></h3>
-								<p>Una App para obtener el clima de tu ciudad solo escribe el nombre de tu ciudad o pais y listo tienes la temperatura del clima y una pequena descripcion ⛅️</p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/project1.png" alt="" /></a>
-								<h3><a href="https://github.com/erickuu/Scrapper_v1" target="_blank" >Python Scrapper</a></h3>
-								<p>Esto mas que un proyecto, es un script hecho en python con la tecnica hardcode para obtener precios de tiendas como ebay o mercadolibre (aun sirve sin embargo la tecnica de programacion no es la mejor). 🐍</p>
-							</article>
-						</div>
-					
-					<footer>
-						<p>Espero te guste algo de lo que hayas visto, sino escribeme y cuentame tu feedback asi podre mejorar </p>
-					</footer>
+			</div>
+			<div class="profile-img">
+				<img src="https://i.imgur.com/yWKANxL.png" class="erick" alt="Erick Image">
+				<div>
+					<img src="" class="img" data-src="https://i.imgur.com/Xlr3bPM.png" class="item" alt="Javascript">
+					<img src="" class="img" data-src="https://i.imgur.com/Xn1tBdt.png" class="item" alt="Mysql">
+					<img src="" class="img" data-src="https://i.imgur.com/UhqE9KY.png" class="item" alt="Mongodb">
 				</div>
-			</article>
+			</div>
+		</section>
 
-		<!-- Contact -->
-			<article id="contact" class="wrapper style4">
-				<div class="container medium">
-					<header>
-						<h2>"You keept learning things ..."</h2>
-						<p>Ten en cuenta que respondo mas rapido via whatsapp.</p>
-						<p>Email<strong>: erickgraterolbarico@gmail.com</strong></p>
-						<p>Contact via Whatsapp :<strong>+573148121439</strong></p>
-					</header>
-					<div class="row">
-					<footer>
-						<h2>We are for help to you </h2>
-						<h3>By erick to the world 🌎</h3>
-					</footer>
+		<section id="section-projects">
+			<div class="projects-title">
+				<h1>Projects Actives </h1>
+				<p>My projects with Php,Js,NodeJS and APIS 🥉.</p>
+				<p>I have a repo in github that cotain more of 9 projects and things interesting, visit it </p>
+				<hr class="line">
+			</div>
+
+			<div class="projects">
+				<div>
+					<img src="" class="img" data-src="https://i.imgur.com/VZ4IXfV.png" alt="PHP MOVIE">
+					<p><a target="_blank" href="https://github.com/erickuu/Laravel-movie">Laravel Movie </a></p>
 				</div>
-			</article>
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-	</body>
+				<div>
+					<img src="" class="img" data-src="https://i.imgur.com/6o2oXBS.png" alt="RANOBE APP">
+					<p><a target="_blank" href="http://fandom-anime.herokuapp.com">Ranobe Api </a></p>
+				</div>
+				<div>
+					<img src="" class="img" data-src="https://i.imgur.com/Bm3Ktt9.png" alt="WEATHER">
+					<p><a target="_blank" href="https://weather-api-consume.herokuapp.com">Weather App </a></p>
+				</div>
+			</div>
+		</section>
+	</main>
+	<script src="./src/js/lazy-loading.js">
+		
+	</script>
+</body>
 </html>
