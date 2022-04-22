@@ -9,8 +9,11 @@
 	--text-color-green: #39bda7;
 	--text-title: #ffffff;
 	--button-color: #1e1d30;
+}
 
+html {
 	font-size: 17px;
+  scroll-behavior: smooth;
 }
 *{
 	margin: 0;
@@ -26,9 +29,28 @@ p,span,li,ul,li,a,button,i{
 h1,h2,h3,h4,h5,h6{
 	font-family: 'Josefin Sans', sans-serif;
 }
-body{
+body{	
 	color: var(--text-color);
 	background-color: var(--primary-color);
+}
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--primary-color);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--text-color-green);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-color-green);
 }
 
 main{
@@ -150,9 +172,8 @@ h2{
   }
   100% {
   	transform: scale(1);
-		box-shadow: 31px 15px 69px -30px rgba(23,191,124,0.75);
-		-webkit-box-shadow: 31px 15px 69px -30px rgba(23,191,124,0.75);
-		-moz-box-shadow: 31px 15px 69px -30px rgba(23,191,124,0.75);
+		box-shadow: 22px 26px 121px -74px var(--text-color);
+		;
   }
 }
 #section-profile .profile-img .item{
@@ -165,8 +186,7 @@ h2{
 	flex-flow: column wrap;
 	padding: 20px;
 	border-radius: 10px;
-	/*border: 1px solid var(--text-color);*/
-	background-color: #ffff;
+	background-color: #f8f9f7;
 	
 }
 /*Button*/
