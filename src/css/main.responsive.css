@@ -1,0 +1,33 @@
+@media (min-width:340px) and (max-width: 800px) {
+  #section-profile{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-right: 0px;
+
+  }
+  #section-profile .profile-img {
+    display: none;
+  }
+  #section-projects .project {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+  #section-projects .project div{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--text-color);
+    margin-top: 25px;
+    border-radius: 11px;
+  }
+  #section-profile .profile-img .erick {
+    animation: scale-up-center 1s ease-in-out 1.5s both;
+    width: 200px;
+    border-radius: 30px;
+  }
+}
